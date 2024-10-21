@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
             case 'h':
                 printf("This app can count inputs in two ways:\n"
                        "-c\tCounts the characters\n"
-                       "-w\tCounts the words\n");
+                       "-w\tCounts everything with spaces in between\n");
             case 'c':
                 while (getchar() != EOF) {
                     count++;

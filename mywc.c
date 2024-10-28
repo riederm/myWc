@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
         }
     } else {
         printf("ERROR: wrong input\n"
-               "use one of the following commands:\n"
+               "use one of the following arguments:\n"
                "'-c' or '-c' or '-w'\n");
     }
     
